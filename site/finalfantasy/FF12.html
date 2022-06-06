@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Final Fantasy XII</title>
+</head>
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swa');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url('https://i.imgur.com/lHNXvnw.jpg');
+      
+        background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+       
+    }
+    .header {
+        background-color: rgba(255, 255, 255, 0.37);
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .imglogo {
+        height: 80px;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+    }
+
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 100px;
+    }
+
+    nav ul li a:hover {
+        color: rgb(105, 105, 230);
+        transition: .4s;
+        font-size: 200px;
+    }
+
+    button {
+        font-family: "Barlow", sans-serif;
+        border: 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 10px 15px;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        width: 120px;
+
+        cursor: pointer;
+    }
+
+    button:hover {
+        transition: .4s;
+        background-color: rgb(105, 105, 230);
+        color: white;
+    }
+    .historia {
+        width: 100%;
+        padding: 100px 0px;
+        
+        
+        
+        background-size: cover;
+        background-position: center
+    }
+
+    .historia img {
+        height: auto;
+        width: 430px;
+      
+    }
+
+    .historiatexto {
+        width: 550px;
+        border: solid white 2px;
+        background-color: rgba(255, 255, 255, 0.678);
+         
+    }
+
+    .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .historiatexto h2 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .historiatexto h5 {
+        color: black;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .historiatexto p {
+        color: black;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+
+    }
+</style>
+<body>
+    <div class="header">
+        <nav>
+            <h2 class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Final_Fantasy_logo_with_japanese_name.svg/1200px-Final_Fantasy_logo_with_japanese_name.svg.png"
+                    alt="" class="imglogo">
+            </h2>
+        
+        
+            <span>
+                <button onclick="window.location.href='jogos.html'">Jogos</button>
+                
+            </span>
+
+        </nav>
+    </div>
+    <section class="historia">
+        <div class="main">
+            <img src="https://i.imgur.com/XAdU1gc.png"
+                alt="">
+            <div class="historiatexto">
+                <h2>
+                   Final Fantasy XII
+                </h2>
+                <h5>
+                   Um breve resumo 
+                </h5>
+                <hr>
+                
+                <p>   Final Fantasy XII (ファイナルファンタジーXII Fainaru Fantajī Tsuerubu?) é um jogo eletrônico de RPG desenvolvido e publicado pela Square Enix exclusivamente para o PlayStation 2, sendo o décimo segundo título principal da série Final Fantasy. O jogo apresentou várias inovações como um novo sistema de batalha, câmera controlável, um sistema que permitia que os jogadores controlassem as ações de outros personagens e outro em que determinava quais habilidades e equipamentos seriam utilizados. Final Fantasy XII também inclui diversos elementos recorrentes da franquia, como monstro convocáveis e chocobos.
+
+                    O jogo se passa no mundo de Ivalice, onde os impérios de Archadia e Rozarria estão travando uma guerra sem fim. O pequeno Reino de Dalmasca é pego no conflito entre as duas outras nações e é anexada por Archadia. A princesa Ashe cria um movimento de resistência e conhece Vaan, um jovem aventureiro que sonha em se tornar um pirata do ar no comando de sua própria aeronave. Eles rapidamente se juntam com outros aliados para enfrentar a tirania do Império Archadiano.
+                    
+                    Final Fantasy XII foi lançado em 2006 e aclamado pela crítica, tendo vencido vários prêmios de "Melhor do Ano" em diversas categorias. Ele vendeu mais de 5,2 milhões de unidades mundialmente, sendo o quarto jogo mais vendido de 2006.
+            </div>
+        </div>
+    </section>
+</body>
+</html>

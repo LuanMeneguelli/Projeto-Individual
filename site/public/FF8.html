@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Final Fantasy VIII</title>
+</head>
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url('https://i.imgur.com/y4OKYsa.jpg');
+      
+        background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+       
+    }
+    .header {
+        background-color: rgba(255, 255, 255, 0.37);
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .imglogo {
+        height: 80px;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+    }
+
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 100px;
+    }
+
+    nav ul li a:hover {
+        color: rgb(105, 105, 230);
+        transition: .4s;
+        font-size: 200px;
+    }
+
+    button {
+        font-family: "Barlow", sans-serif;
+        border: 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 10px 15px;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        width: 120px;
+
+        cursor: pointer;
+    }
+
+    button:hover {
+        transition: .4s;
+        background-color: rgb(105, 105, 230);
+        color: white;
+    }
+    .historia {
+        width: 100%;
+        padding: 100px 0px;
+        
+        
+        
+        background-size: cover;
+        background-position: center
+    }
+
+    .historia img {
+        height: auto;
+        width: 430px;
+      
+    }
+
+    .historiatexto {
+        width: 550px;
+        border: solid white 2px;
+        background-color: rgba(255, 255, 255, 0.678);
+         
+    }
+
+    .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .historiatexto h2 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .historiatexto h5 {
+        color: black;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .historiatexto p {
+        color: black;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+
+    }
+</style>
+<body>
+    <div class="header">
+        <nav>
+            <h2 class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Final_Fantasy_logo_with_japanese_name.svg/1200px-Final_Fantasy_logo_with_japanese_name.svg.png"
+                    alt="" class="imglogo">
+            </h2>
+        
+        
+            <span>
+                <button onclick="window.location.href='jogos.html'">Jogos</button>
+                
+            </span>
+
+        </nav>
+    </div>
+    <section class="historia">
+        <div class="main">
+            <img src="https://i.imgur.com/pWmu0Bv.png"
+                alt="">
+            <div class="historiatexto">
+                <h2>
+                   Final Fantasy VIII
+                </h2>
+                <h5>
+                   Um breve resumo 
+                </h5>
+                <hr>
+                <p>Final Fantasy VIII (ファイナルファンタジーVIII Fainaru Fantajī Eito?) é um jogo eletrônico de RPG desenvolvido e publicado pela SquareSoft em 1999, sendo o oitavo título principal da série Final Fantasy.[1] O jogo foi o segundo da franquia a utilizar gráficos tridimensionais e o primeiro a consistentemente empregar personagens de proporções realistas, também introduzindo um novo sistema de mágica que removia a tradicional conjuração com pontos de magia. A história se passa em um mundo que mistura elementos de fantasia e ficção científica, seguindo um grupo de jovens mercenários liderados por Squall Leonhart e que trabalham para uma organização chamada SeeD. Eles inicialmente viajam por países diferentes perseguindo a feiticeira Edea, porém logo devem impedir que o futuro seja comprimido no tempo no chamado Ultimecia.
+
+                    O desenvolvimento de Final Fantasy VIII começou em 1997, sendo dirigido por Yoshinori Kitase e produzido por Shinji Hashimoto. A trilha sonora original foi composta pelo veterano da franquia Nobuo Uematsu, sendo a primeira a empregar uma canção com letras: "Eyes on Me", interpretada por Faye Wong. O jogo foi bem recebido pela crítica, que elogiaram sua originalidade e escopo. Ele também foi um grande sucesso comercial, arrecadando cinquenta milhões de dólares em apenas treze semanas e se tornando o Final Fantasy mais rapidamente vendido da história até o lançamento de Final Fantasy XIII em 2009. Mundialmente, VIII já vendeu mais de 8,15 milhões de cópias.
+            </div>
+        </div>
+    </section>
+</body>
+</html>

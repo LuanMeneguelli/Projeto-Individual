@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Final Fantasy VI</title>
+</head>
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url('https://i.imgur.com/5regKd6.jpg');
+      
+        background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+       
+    }
+    .header {
+        background-color: rgba(255, 255, 255, 0.37);
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .imglogo {
+        height: 80px;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+    }
+
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 100px;
+    }
+
+    nav ul li a:hover {
+        color: rgb(105, 105, 230);
+        transition: .4s;
+        font-size: 200px;
+    }
+
+    button {
+        font-family: "Barlow", sans-serif;
+        border: 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 10px 15px;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        width: 120px;
+
+        cursor: pointer;
+    }
+
+    button:hover {
+        transition: .4s;
+        background-color: rgb(105, 105, 230);
+        color: white;
+    }
+    .historia {
+        width: 100%;
+        padding: 100px 0px;
+        
+        
+        
+        background-size: cover;
+        background-position: center
+    }
+
+    .historia img {
+        height: auto;
+        width: 430px;
+      
+    }
+
+    .historiatexto {
+        width: 550px;
+        border: solid white 2px;
+        background-color: rgba(255, 255, 255, 0.678);
+         
+    }
+
+    .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .historiatexto h2 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .historiatexto h5 {
+        color: black;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .historiatexto p {
+        color: black;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+
+    }
+</style>
+<body>
+    <div class="header">
+        <nav>
+            <h2 class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Final_Fantasy_logo_with_japanese_name.svg/1200px-Final_Fantasy_logo_with_japanese_name.svg.png"
+                    alt="" class="imglogo">
+            </h2>
+        
+        
+            <span>
+                <button onclick="window.location.href='jogos.html'">Jogos</button>
+                
+            </span>
+
+        </nav>
+    </div>
+    <section class="historia">
+        <div class="main">
+            <img src="https://i.imgur.com/dLHHVvE.png"
+                alt="">
+            <div class="historiatexto">
+                <h2>
+                   Final Fantasy VI
+                </h2>
+                <h5>
+                   Um breve resumo 
+                </h5>
+                <hr>
+                <p>Final Fantasy VI (ファイナルファンタジーVI Fainaru Fantajī Shikkusu?) é um jogo eletrônico de RPG desenvolvido e publicado pela SquareSoft para o Super Nintendo Entertainment System. Lançado em 1994, é o sexto título principal da série Final Fantasy. Se passando em um mundo fantástico com uma tecnologia equivalente da Segunda Revolução Industrial, a história se foca em um grupo de rebeldes que procuram derrubar uma ditadura imperial. O jogo possui catorze personagens principais jogáveis, o maior número dentre os jogos principais da série.
+
+                    O jogo ficou conhecido como Final Fantasy III quando foi lançado pela primeira vez na América do Norte, já que o Final Fantasy III original e Final Fantasy V nunca foram lançados fora do Japão. Entretanto, a maioria dos relançamentos posteriores utiliza o título original. VI foi o primeiro jogo da série a ser dirigido por alguém diferente que o criador Hironobu Sakaguchi, com o cargo sendo preenchido por Yoshinori Kitase e Hiroyuki Ito. O veterano da franquia Yoshitaka Amano retornou como desenhista de personagens, assim como o compositor Nobuo Uematsu.
+                    
+                    Suas versões para Super Nintendo e PlayStation venderam mais de 3,48 milhões de cópias mundialmente, além de mais 750 mil como parte da japonesa Final Fantasy Collection e da norte-americana Final Fantasy Anthology. VI também recebeu diversos prêmios desde seu lançamento. O jogo após o seu lançamento foi aclamado pela crítica especializada, sendo considerado como um marco para o gênero RPG, um dos melhores games de todos os tempos e ganhando o status de culto tanto para os RPGs quanto para o mundo dos games em geral.
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
